@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 
 import { AuthContext } from "../context/auth";
-// import useDarkMode from "../utils/useDarkMode";
+import useDarkMode from "../utils/useDarkMode";
 
 const NavBar = () => {
   const { user, logout } = useContext(AuthContext);
-  //   const [colorTheme, setTheme] = useDarkMode();
+  const [colorTheme, setTheme] = useDarkMode();
   const pathname = window.location.pathname;
 
   const path = pathname === "/" ? "home" : pathname.substr(1);
