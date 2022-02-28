@@ -28,7 +28,7 @@ const NavBar = () => {
                 className="dark:text-dark-logo cursor-pointer text-2xl font-bold sm:leading-relaxed md:leading-normal"
                 name={"StackUnderflow"}
               >
-                Stack Underflow
+                Queue Interest
               </h1>
             </Link>
           </div>
